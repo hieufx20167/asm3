@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+.goals,
+.team,
+.timeline,
+.scopes,
+.primary {
+  justify-items: center;
+  padding: 10px;
+}
+.timeline {
+  grid-column: 3 / -1;
+  grid-row: 1 / -1;
+}
+.date {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+}
+.info {
+  grid-column: 2/-1;
+}
+i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  scale: 70%;
+}
+strong {
+  font-size: 30px;
+}

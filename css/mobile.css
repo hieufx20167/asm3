@@ -1,0 +1,98 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  /* Header Banner */
+  header {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(../images/banner.jpg);
+  }
+  #banner {
+    color: #f7f7f7;
+    font-size: 18px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .avatar-img {
+    display: none;
+  }
+  /* navbar */
+  .navbar {
+    flex-direction: column;
+  }
+  .nav {
+    border: none;
+  }
+  /* info */
+  .myinfo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  /* job des */
+  .job-description {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 200px;
+  }
+  /* target */
+  #target {
+    padding-left: 30px;
+  }
+  /* certification */
+  .certificate {
+    background-color: rgb(247, 247, 247);
+    margin-top: 30px;
+  }
+  .c-and-a {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .cer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cerimg {
+    height: auto;
+    width: 300px;
+  }
+  /* project */
+  .project {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 0;
+  }
+  .prjimg {
+    width: 480px;
+  }
+  /* footer */
+  .footer {
+    font-size: 16px;
+  }
+}
